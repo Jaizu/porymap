@@ -59,6 +59,7 @@ void TilesetEditor::init(Project *project, QString primaryTilesetLabel, QString 
     this->ui->comboBox_layerType->addItem("Normal - Middle/Top", 0);
     this->ui->comboBox_layerType->addItem("Covered - Bottom/Middle", 1);
     this->ui->comboBox_layerType->addItem("Split - Bottom/Top", 2);
+    this->ui->comboBox_layerType->addItem("Triple - Bottom/Middle/Top", 3);
     this->ui->spinBox_paletteSelector->setMinimum(0);
     this->ui->spinBox_paletteSelector->setMaximum(Project::getNumPalettesTotal() - 1);
 
