@@ -252,7 +252,7 @@
           </layout>
         </item>
         <item>
-         <widget class="AdjustingStackedWidget" name="mainStackedWidget">
+         <widget class="QStackedWidget" name="mainStackedWidget">
           <property name="enabled">
            <bool>true</bool>
           </property>
@@ -677,7 +677,7 @@
                 </item>
                </layout>
               </widget>
-              <widget class="QStackedWidget" name="stackedWidget_MapEvents">
+              <widget class="AdjustingStackedWidget" name="stackedWidget_MapEvents">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="MinimumExpanding">
                  <horstretch>0</horstretch>
