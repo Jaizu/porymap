@@ -252,7 +252,7 @@
           </layout>
         </item>
         <item>
-         <widget class="QStackedWidget" name="mainStackedWidget">
+         <widget class="AdjustingStackedWidget" name="mainStackedWidget">
           <property name="enabled">
            <bool>true</bool>
           </property>
@@ -3035,6 +3035,11 @@
    <class>NoScrollComboBox</class>
    <extends>QComboBox</extends>
    <header>noscrollcombobox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>AdjustingStackedWidget</class>
+   <extends>QStackedWidget</extends>
+   <header>adjustingstackedwidget.h</header>
   </customwidget>
   <customwidget>
    <class>GraphicsView</class>
